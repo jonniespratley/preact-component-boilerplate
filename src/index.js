@@ -18,7 +18,7 @@ const STYLE_CONTENT = 'position:absolute; top:0; left:0; height:100%; width:100%
  *			sync
  *		/>
  */
-export default class VirtualList extends Component {
+export default class BoilerplateComponent extends Component {
 	resize = () => {
 		if (this.state.height!==this.base.offsetHeight) {
 			this.setState({ height: this.base.offsetHeight });
